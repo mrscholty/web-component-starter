@@ -1,0 +1,24 @@
+{
+  "name": "web-component-starter",
+  "version": "1.0.0",
+  "description": "starter web app for creating single-page applications using web standards #### Dependencies",
+  "main": "index.js",
+  "scripts": {
+    "start": "browser-sync start -s src -f src --single --no-notify --no-open",
+    "lint": "eslint ./src/**/*.js || true"
+  },
+  "repository": {
+    "type": "git",
+    "url": "ssh://markus@192.168.178.111:/home/markus/git/web-component-starter.git"
+  },
+  "keywords": [],
+  "author": "Markus Scholtysik",
+  "license": "MIT",
+  "devDependencies": {
+    "@rollup/plugin-node-resolve": "^13.3.0",
+    "browser-sync": "^2.27.10",
+    "eslint": "^8.26.0",
+    "rollup": "^2.75.0",
+    "uhtml": "^3.1.0"
+  }
+}
